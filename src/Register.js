@@ -50,6 +50,7 @@ function Register({sign,loaduser}){
                 sign();
             }
             else{
+                console.log(data);
                 alert("please check your password or user name");
             }
          })

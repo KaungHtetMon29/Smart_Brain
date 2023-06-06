@@ -31,7 +31,7 @@ function Register({sign,loaduser}){
         if(!user.name || !user.email || !user.pw){
             alert("add full data in the form")
         }else{
-            fetch('http://localhost:3000/register',{
+            fetch('https://smart-brain-server-lcot.onrender.com/register',{
             method:'post',
             headers:{
                 'Content-Type':'application/json',

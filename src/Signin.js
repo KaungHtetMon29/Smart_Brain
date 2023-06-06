@@ -41,7 +41,7 @@ function Signin({sign,regist,loaduser}){
         if(!user.name|| !user.pw){
             alert("add full data in the form")
         }else{
-            fetch('http://localhost:3000/signin',{
+            fetch('https://smart-brain-server-lcot.onrender.com/signin',{
             method:'post',
             headers:{
                 'Content-Type':'application/json',

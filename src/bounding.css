@@ -1,0 +1,21 @@
+/* .boundingbox{
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset; 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9;
+} */
+.bbox{
+    
+    /* width:112px;
+    height:80px; */
+    border: 1px solid black;
+    fill:none;
+    /* top:21px;
+    left: 117px; */
+}
+.parent{
+    position: relative;
+}
